@@ -1,0 +1,12 @@
+## Interface: 70000
+## Title: Lib: AuraTracker-1.0
+## Notes: Provides logic for tracking auras for calculating pandemic refresh windows.
+## Author: TurtleGuy
+## Version: 1.0
+
+
+#@no-lib-strip@
+libs\LibStub\LibStub.lua
+#@end-no-lib-strip@
+
+LibAuraTracker-1.0.lua

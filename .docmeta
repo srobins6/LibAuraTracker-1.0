@@ -1,0 +1,4 @@
+-
+    type: luadoc
+    input-file: "LibAuraTracker-1.0.lua"
+    output-page: "Main/API"
