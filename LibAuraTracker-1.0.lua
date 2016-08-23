@@ -14,7 +14,7 @@ local LibAuraTracker = LibStub:NewLibrary(MAJOR, MINOR)
 if not LibAuraTracker then
     return
 end --No upgrade needed
-local Frame = CreateFrame("Frame")
+local Frame = _G.CreateFrame("Frame")
 
 local function round(num, idp)
     return tonumber(string.format("%." .. (idp or 0) .. "f", num))
